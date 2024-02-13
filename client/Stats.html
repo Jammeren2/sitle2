@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статистика | Tanks Blitz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/client.js"></script>
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="menu">
+            <a href="index.html " id="img">
+                <img src="images/tb.png" alt="" >
+            </a>
+            <a href="index.html">Главная</a>
+            <a href="news.html">Новости</a>
+            <a href="tournaments.html">Турниры</a>
+            <a href="Stats.html" class="active">Статистика</a>
+            <a href="https://lesta.ru/id/signin/" class="login">Войти</a>
+        </div>
+    </div>
+    <div class="center">
+        <p class="Stats_text1">Здесь вы можете узнать статистику игроков</p>
+    </div>
+    <div class="Stats_flex">
+        <input class="input form-control" type="search" id="nicknameInput" placeholder="Username">
+        <button type="button" class="btn btn-outline-success m-2">Найти</button>
+    </div>
+    <div class="Stats_out" id="statsOutput"></div>
+    <div class="table111">
+        <div class="table11">    
+            <table class="clanStat" id="table1"></table>
+        </div>
+    </div>
+
+</body>
+</html>
